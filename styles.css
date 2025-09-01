@@ -1,18 +1,22 @@
 
 body { 
     font-family: Arial, sans-serif; 
-    background: #f4f4f4; 
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     margin: 0; 
     padding: 0; 
 }
 .container { 
     max-width: 600px; 
     margin: 40px auto; 
-    background: #fff; 
+    background: transparent;
+    backdrop-filter: blur(20px); /* Applies blur to content behind this element */
     padding: 30px; 
     border-radius: 8px; 
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
+
 h1 { 
     color: #000000; 
 }
@@ -26,7 +30,7 @@ input, select {
     width: 100%; 
     padding: 8px; 
     margin-top: 7px; 
-    border-radius: 4px; 
+    border-radius: 20px; 
     border: 1px solid #ccc; 
 }
 .scale { 
