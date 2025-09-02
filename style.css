@@ -1,0 +1,44 @@
+
+    body {
+      background: #ffffff;
+      background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(54, 227, 195, 1) 100%);
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .hero {
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    }
+    .hero h1 {
+      font-size: 32px;
+      margin: 0;
+    }
+    .conteudo {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .sessao {
+      margin-bottom: 40px;
+    }
+    .sessao img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+    .botao {
+      display: inline-block;
+      background: #2f9e44;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 24px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
